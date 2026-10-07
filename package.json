@@ -1,0 +1,10 @@
+{
+	"name": "69th",
+	"private": true,
+	"type": "module",
+	"workspaces": ["packages/*"],
+	"scripts": {
+		"check": "tsc -b",
+		"test": "node --test packages/*/src/*.test.ts"
+	}
+}
